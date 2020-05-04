@@ -1,8 +1,11 @@
 body {
   margin: 0;
   font-family: 'Courier New';
-  background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%); /* w3c */
-
+  background: linear-gradient(
+    89deg,
+    rgb(238, 174, 202) 0%,
+    rgb(148, 187, 233) 100%
+  );
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
